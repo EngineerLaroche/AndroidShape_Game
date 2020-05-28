@@ -1,15 +1,9 @@
 
-package log350.example.example6;
+package project;
 
 import java.util.ArrayList;
-
-//import java.util.List;
-
 import android.content.Context;
-//import android.graphics.Matrix;
 import android.graphics.Canvas;
-//import android.graphics.Rect;
-//import android.graphics.Path;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.Log;

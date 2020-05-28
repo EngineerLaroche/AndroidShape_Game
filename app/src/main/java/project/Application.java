@@ -1,23 +1,17 @@
-package log350.example.example6;
+package project;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
-
 /**
- * <b>Description</b> This example is a sample drawing canvas.
- * The user can use a single finger to draw a line.
- * This class is the activity of the application.  
- * <p> 
- * <b>Date</b> 2012-07-03
- * @author Mathieu Villeneuve
+ * @author Alexandre Laroche
  */
-public class Log350Example6Activity extends Activity {
+public class Application extends Activity {
   DrawingView drawView;
 
-  /** Called when the activity is first created. */
+  /* Called when the activity is first created. */
   @Override
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);

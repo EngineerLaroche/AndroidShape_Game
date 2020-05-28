@@ -1,5 +1,5 @@
 
-package log350.example.example6;
+package project;
 
 public class MyButton {
 

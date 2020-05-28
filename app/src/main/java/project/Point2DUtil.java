@@ -1,10 +1,10 @@
-package log350.example.example6;
+package project;
+
 import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.ListIterator;
-
 
 
 // This is used to sort points by some "score",
@@ -29,7 +29,6 @@ class Point2DAndScoreComparator implements Comparator<Point2DAndScore> {
 		else return (a.score<b.score) ? -1 : ( (a.score>b.score) ? 1 : 0 );
 	}
 }
-
 
 
 public class Point2DUtil {

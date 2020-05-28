@@ -1,10 +1,10 @@
 
-package log350.example.example6;
+package project;
 
 import java.util.ArrayList;
 
 class Shape {
-    private ArrayList< Point2D > points = new ArrayList< Point2D >(); // in world space
+    private ArrayList<Point2D> points = new ArrayList< Point2D >(); // in world space
 
     public Shape( ArrayList< Point2D > points ) {
         for ( Point2D p : points ) {

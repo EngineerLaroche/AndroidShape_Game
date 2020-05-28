@@ -1,16 +1,12 @@
-package log350.example.example6;
+package project;
 
 import android.graphics.Paint;
-//import android.graphics.Paint.Style;
 import android.graphics.Canvas;
 import android.graphics.Path;
 import android.graphics.Matrix;
 import android.graphics.Rect;
-
-
 import java.lang.Math;
 import java.util.ArrayList;
-//import java.awt.Color;
 
 
 class GraphicsWrapper {
@@ -49,7 +45,7 @@ class GraphicsWrapper {
 
     public float convertPixelsToWorldSpaceUnitsX( float XInPixels ) { return ( XInPixels - offsetXInPixels )*scaleFactorInWorldSpaceUnitsPerPixel; }
     public float convertPixelsToWorldSpaceUnitsY( float YInPixels ) { return ( YInPixels - offsetYInPixels )*scaleFactorInWorldSpaceUnitsPerPixel; }
-    public Point2D convertPixelsToWorldSpaceUnits( Point2D p ) { return new Point2D(convertPixelsToWorldSpaceUnitsX(p.x()),convertPixelsToWorldSpaceUnitsY(p.y())); }
+    public Point2D convertPixelsToWorldSpaceUnits(Point2D p ) { return new Point2D(convertPixelsToWorldSpaceUnitsX(p.x()),convertPixelsToWorldSpaceUnitsY(p.y())); }
 
     public int convertWorldSpaceUnitsToPixelsX( float x ) { return Math.round( x / scaleFactorInWorldSpaceUnitsPerPixel + offsetXInPixels ); }
     public int convertWorldSpaceUnitsToPixelsY( float y ) { return Math.round( y / scaleFactorInWorldSpaceUnitsPerPixel + offsetYInPixels ); }

@@ -1,5 +1,5 @@
 
-package log350.example.example6;
+package project;
 
 import java.util.ArrayList;
 
@@ -8,7 +8,7 @@ class ShapeContainer {
 
 	public Shape getShape( int index ) { return shapes.get(index); }
 
-	public void addShape( ArrayList< Point2D > points /* in world space */ ) {
+	public void addShape( ArrayList<Point2D> points /* in world space */ ) {
 		Shape s = new Shape( points );
 		shapes.add( s );
 	}
